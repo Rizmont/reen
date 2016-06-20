@@ -8239,6 +8239,16 @@ a:hover {
   font-size: 15px;
 }
 
+.text--lg {
+  font-size: 24px;
+}
+
+.text--xxl {
+  text-transform: uppercase;
+  font-size: 70px;
+  line-height: 1.1;
+}
+
 .text-left {
   text-align: left;
 }
@@ -8277,6 +8287,62 @@ a:hover {
 
 .padding--null {
   padding: 0;
+}
+
+.btn-brand {
+  color: #fff;
+  background-color: #00bc9c;
+  border-color: #00bc9c;
+}
+
+.btn-brand:focus, .btn-brand.focus {
+  color: #fff;
+  background-color: #008972;
+  border-color: #003d32;
+}
+
+.btn-brand:hover {
+  color: #fff;
+  background-color: #008972;
+  border-color: #007f69;
+}
+
+.btn-brand:active, .btn-brand.active,
+.open > .btn-brand.dropdown-toggle {
+  color: #fff;
+  background-color: #008972;
+  border-color: #007f69;
+}
+
+.btn-brand:active:hover, .btn-brand:active:focus, .btn-brand:active.focus, .btn-brand.active:hover, .btn-brand.active:focus, .btn-brand.active.focus,
+.open > .btn-brand.dropdown-toggle:hover,
+.open > .btn-brand.dropdown-toggle:focus,
+.open > .btn-brand.dropdown-toggle.focus {
+  color: #fff;
+  background-color: #006554;
+  border-color: #003d32;
+}
+
+.btn-brand:active, .btn-brand.active,
+.open > .btn-brand.dropdown-toggle {
+  background-image: none;
+}
+
+.btn-brand.disabled:hover, .btn-brand.disabled:focus, .btn-brand.disabled.focus, .btn-brand[disabled]:hover, .btn-brand[disabled]:focus, .btn-brand[disabled].focus,
+fieldset[disabled] .btn-brand:hover,
+fieldset[disabled] .btn-brand:focus,
+fieldset[disabled] .btn-brand.focus {
+  background-color: #00bc9c;
+  border-color: #00bc9c;
+}
+
+.btn-brand .badge {
+  color: #00bc9c;
+  background-color: #fff;
+}
+
+.navbar {
+  margin-bottom: 0;
 }
 
 .header-top {
@@ -8426,6 +8492,41 @@ a:hover {
   .header-main__link {
     display: block;
   }
+}
+
+.slider {
+  height: 100vh;
+}
+
+.slider .carousel-indicators li {
+  border: 1px solid transparent;
+  background: #506a85;
+}
+
+.slider .carousel-indicators .active {
+  background: #00bc9c;
+}
+
+.slider .carousel-control.left, .slider .carousel-control.right {
+  background-image: none;
+}
+
+.slider .item {
+  padding: 200px 0;
+}
+
+.slider .carousel-caption {
+  position: static;
+  left: 0%;
+  right: 0%;
+  bottom: 0;
+  z-index: 10;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: none;
+  text-align: center;
+  text-shadow: 0;
+  font-size: 0;
 }
 
 body {

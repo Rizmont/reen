@@ -37,6 +37,14 @@ a {
   &--md{
     font-size: 15px;
   }
+  &--lg{
+    font-size: 24px;
+  }
+  &--xxl{
+    text-transform: uppercase;
+    font-size: 70px;
+    line-height: 1.1;
+  }
 }
 
 .text-left           { text-align: left; }
@@ -49,3 +57,7 @@ a {
 .pull-null           { float: none; }
 .bold                { font-weight: bold; }
 .padding--null       { padding: 0; }
+
+.btn-brand {
+  @include button-variant(#fff, $brand-color, $brand-color);
+}
