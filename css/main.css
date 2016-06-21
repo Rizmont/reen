@@ -522,6 +522,14 @@ textarea {
   content: "";
 }
 
+.icon {
+  color: #00bc9c;
+}
+
+.icon--lg {
+  font-size: 30px;
+}
+
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -8231,12 +8239,20 @@ a:hover {
   padding: 20px 0;
 }
 
+.block--xxl {
+  padding: 100px 0;
+}
+
 .text--sm {
   font-size: 12px;
 }
 
 .text--md {
   font-size: 15px;
+}
+
+.text--md {
+  font-size: 22px;
 }
 
 .text--lg {
@@ -8339,6 +8355,16 @@ fieldset[disabled] .btn-brand.focus {
 .btn-brand .badge {
   color: #00bc9c;
   background-color: #fff;
+}
+
+.heading {
+  margin-bottom: 70px;
+}
+
+.heading__top {
+  font-size: 44px;
+  line-height: 1.2;
+  margin-bottom: 35px;
 }
 
 .navbar {
@@ -8495,7 +8521,7 @@ fieldset[disabled] .btn-brand.focus {
 }
 
 .slider {
-  height: 100vh;
+  height: auto;
 }
 
 .slider .carousel-indicators li {
@@ -8527,6 +8553,20 @@ fieldset[disabled] .btn-brand.focus {
   text-align: center;
   text-shadow: 0;
   font-size: 0;
+}
+
+.beautiful {
+  text-align: center;
+}
+
+.beautiful .columns {
+  text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+  .beautiful .columns {
+    text-align: center;
+  }
 }
 
 body {

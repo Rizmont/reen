@@ -28,6 +28,9 @@ a {
   &--md{
     padding: 20px 0;
   }
+  &--xxl{
+    padding :100px 0;
+  }
 }
 
 .text{
@@ -36,6 +39,9 @@ a {
   }
   &--md{
     font-size: 15px;
+  }
+  &--md{
+    font-size: 22px;
   }
   &--lg{
     font-size: 24px;
@@ -60,4 +66,13 @@ a {
 
 .btn-brand {
   @include button-variant(#fff, $brand-color, $brand-color);
+}
+
+.heading{
+  margin-bottom: 70px;
+  &__top{
+    font-size: 44px;
+    line-height: 1.2;
+    margin-bottom: 35px;
+  }
 }

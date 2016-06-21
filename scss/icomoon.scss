@@ -127,3 +127,9 @@
     }
 }
 
+.icon{
+    color: $brand-color;
+    &--lg{
+        font-size: 30px;
+    }
+}
